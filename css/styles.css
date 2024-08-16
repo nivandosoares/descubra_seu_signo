@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Reset básico para margem e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Estilo do cartão (card) */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Cabeçalho do cartão */
+.card-header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Corpo do cartão */
+.card-body {
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+/* Botão */
+.btn {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e05b50;
+}
+
+/* Alerta de erro */
+.alert {
+    background-color: #ffdddd;
+    color: #900;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.alert-danger {
+    border-left: 4px solid #ff6f61;
+}
